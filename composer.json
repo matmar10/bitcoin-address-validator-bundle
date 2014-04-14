@@ -1,0 +1,28 @@
+{
+    "name": "matmar10/bitcoin-address-validator-bundle",
+    "version": "0.1.0",
+    "description": "Symfony bundle for bitcoin address validation",
+    "license": "MIT",
+    "keywords": ["bitcoin", "address", "validate", "constraint", "regex", "regexp", "regular expression"],
+    "authors": [
+        {
+            "name": "Matthew J. Martin",
+            "email": "matthew.mar10@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.3",
+        "doctrine/common": ">=2.1",
+        "symfony/symfony": "~2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Matmar10\\Bundle\\BitcoinAddressValidatorBundle\\Tests": "",
+            "Matmar10": ""
+        }
+    }
+}
